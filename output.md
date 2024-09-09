@@ -13,7 +13,7 @@ For this exercise I used [OWASP Juice Shop](https://github.com/juice-shop/juice-
 ### 2)  Forking To Github
  Having chosen the application, I used an existing  GitHub account to fork the application. From the top right option:
 
-![](DraggedImage.png)
+![](assignment_images/forking.png)
 
 ### 3) Cloning the Repository
 With Git already installed, I then used the following command in terminal to clone the repository:
@@ -23,7 +23,7 @@ With Git already installed, I then used the following command in terminal to clo
 ### 4) Running the Application
 Given that the project was very well documented, I followed the instructions under Docker Container to quickly get it up and running after forking it.  
   
-![](DraggedImage-1.png)
+![](assignment_images/docker_command.png)
 
 ### 5) Homepage
 With the application now running on my local machine on port 3000. I was able to get to the home   
