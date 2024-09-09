@@ -48,7 +48,7 @@ From there I noticed that all images are in the default.yml file. From there a q
 
 Where the final result is:  
   
-![](DraggedImage-6.png)
+![](assignment_images/final_product.png)
 
 ### 9) Final URL:  
   
