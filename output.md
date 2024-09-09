@@ -27,7 +27,7 @@ Given that the project was very well documented, I followed the instructions und
 
 ### 5) Homepage
 With the application now running on my local machine on port 3000. I was able to get to the home   
-![](DraggedImage-2.png)
+![](assignment_images/homepage.png)
 
 ### 6) Creating this File
 Using Sublime Text, I was able to create an .md file called output.md to stylize the steps taken above
@@ -35,16 +35,16 @@ Using Sublime Text, I was able to create an .md file called output.md to stylize
 ### 7) Merging to Master Branch
 It is not best practice to commit directly to the master branch as it lacks code review which can lead to potential breaking changes. To avoid this it would be best to create a branch for each change. Then merge it into the master branch via a pull requests  after code review. For instance you can require PRs configure the repository to require PRs Branch protection rules shown below:  
 
-![](DraggedImage-3.png)
+![](assignment_images/branch_protection.png)
 
 ### 8) Replacing WebGoat Image
 
 Using developer tools I was able to find the logo of the main homepage under:  
 …/juice-shop/frontend/src/assets/public/images/ 
-![](DraggedImage-4.png)
+![](assignment_images/developertools.png)
 From there I noticed that all images are in the default.yml file. From there a quick change to point to new images
 
-![](DraggedImage-5.png)
+![](assignment_images/sublime.png)
 
 Where the final result is:  
   
