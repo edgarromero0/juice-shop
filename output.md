@@ -23,7 +23,7 @@ With Git already installed, I then used the following command in terminal to clo
 ### 4) Running the Application
 Given that the project was very well documented, I followed the instructions under Docker Container to quickly get it up and running after forking it.  
   
-![](assignment_images/docker_command.png)
+![](assignment_images/dock_command.png)
 
 ### 5) Homepage
 With the application now running on my local machine on port 3000. I was able to get to the home   
