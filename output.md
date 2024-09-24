@@ -53,3 +53,5 @@ Where the final result is:
 ### 9) Final URL:  
   
 [https://github.com/edgarromero0/juice-shop/tree/master](https://github.com/edgarromero0/juice-shop/tree/master)
+[Public URL](https://edgarsjuiceshop.ngrok.app)
+
