@@ -37,7 +37,12 @@ It is not best practice to commit directly to the master branch as it lacks code
 
 ![](assignment_images/branch_protection.png)
 
-### 8) Replacing WebGoat Image
+### 8) Using grok tunnel to secure
+Creating an ngrok tunnel and securing using basic auth: ngrok http 3000 --basic-auth="user:password1" --hostname=edgarsjuiceshop.ngrok.app
+
+![](assignment_images/ngrok.png)
+
+### 9) Replacing WebGoat Image
 
 Using developer tools I was able to find the logo of the main homepage under:  
 …/juice-shop/frontend/src/assets/public/images/ 
@@ -50,7 +55,7 @@ Where the final result is:
   
 ![](assignment_images/final_product.png)
 
-### 9) Final URL:  
+### 10) Final URL:  
   
 [https://github.com/edgarromero0/juice-shop/tree/master](https://github.com/edgarromero0/juice-shop/tree/master)
 [Public URL](https://edgarsjuiceshop.ngrok.app)
