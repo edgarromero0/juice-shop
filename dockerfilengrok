@@ -1,0 +1,21 @@
+# Step 1: Use a base Node.js image
+FROM node:14
+
+# Step 2: Create app directory
+WORKDIR /usr/src/app
+
+# Step 3: Copy package.json and install dependencies
+COPY package*.json ./
+RUN npm install
+
+# Step 4: Copy the app files
+COPY . .
+
+# Step 5: Expose port 3000 (for the Juice Shop app)
+EXPOSE 3000
+
+# Step 6: Install ngrok
+RUN npm install ngrok --save
+
+# Step 7: Start the app and ngrok tunnel together
+CMD [ "npm", "start" ]
